@@ -4,16 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello, <?php echo $name; ?></title>
+    <style>
+        .box {
+            padding: 100px 0;
+            width: 400px;
+            text-align: center;
+            background: #ddd;
+            margin: 20px;
+            display: inline-block;
+        }
+        .favorite {
+            color: green;
+        }
+    </style>
 </head>
+
 <body>
 <h1>Hello, <?= $name ?>!</h1>
 <div id="app">
+    <!-- attribute binding -->
+    <a v-bind:href="url">Home page</a>
     <div v-if="showBooks">
-    <p>{{ title }} - {{ author }} - {{ age }} </p>
-    <button v-on:click="age++">Increase age</button>
-    <button v-on:click="age--">Decreate age</button>
+        <ul>
+            <li v-for="book in books">
+                <h3 :class="{ favorite: book.isFav}">{{ book.title }}</h3>
+                {{ book.author }}<br/>
+                <img :src="book.img" :alt="book.title">
+            </li>
+        </ul>
     </div>
     <div @click="show()">Show/Hide books</div>
+    <br>
+    <div class="box" @mouseover="mouseover">mouse enter</div>
+    <div class="box" @mouseleave="mouseleave">mouse leave"</div>
+    <div class="box" @dblclick="handleEvent($event, 0)">double click</div>
+    <div class="box" @mousemove="handleMouseMove">Position: ({{ x }}, {{y}})</div>
 </div>
 
 

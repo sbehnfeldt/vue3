@@ -39,4 +39,18 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1
 * v-on: Directive to allow element to react to events
 ## Conditional Rendering
 * v-if=""
-* 
+* v-show=""
+
+# 3) Vue JS Basics (Part 2) 
+## Other Mouse Events
+* @mouseover, @mouseleave, @dblclick
+* when no parameters passed, the event passed implicitly as first (and only) parameter
+* when parameters are passed, the event must be passed as $event
+## Outputing Lists
+* v-for
+## Attribute Binding
+* Bind dynamic values to HTML attributes
+* eg: <a v-bind:href={{url}}
+* shorthand: :href={{url}}
+## Dynamic Classes
+:class={ classname : booleanValue }

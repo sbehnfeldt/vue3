@@ -22,3 +22,21 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1
 * suspense component: loading...
 * TypeScript support
 ## Environment Setup
+
+# 2) Vue JS Basics
+## Load Vue library
+* \<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+## Create app file
+* `````
+  const app = Vue.createApp({
+    // data, functions
+    template: '<h2>I am the template</h2>'
+  });
+  app.mount('#app');```
+* write the template in POJO passed to createApp() method; or
+* write the template in the mount point 
+## Click Events
+* v-on: Directive to allow element to react to events
+## Conditional Rendering
+* v-if=""
+* 

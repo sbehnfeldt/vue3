@@ -26,17 +26,19 @@
     <a v-bind:href="url">Home page</a>
     <div v-if="showBooks">
         <ul>
-            <li v-for="book in books">
+            <li v-for="book in books" @click="toggleFav(book)">
                 <h3 :class="{ favorite: book.isFav}">{{ book.title }}</h3>
                 {{ book.author }}<br/>
                 <img :src="book.img" :alt="book.title">
             </li>
         </ul>
     </div>
-    <div @click="show()">Show/Hide books</div>
+    <div>
+    <button @click="show()">Show/Hide books</button>
+    </div>
     <br>
     <div class="box" @mouseover="mouseover">mouse enter</div>
-    <div class="box" @mouseleave="mouseleave">mouse leave"</div>
+    <div class="box" @mouseleave="mouseleave">mouse leave</div>
     <div class="box" @dblclick="handleEvent($event, 0)">double click</div>
     <div class="box" @mousemove="handleMouseMove">Position: ({{ x }}, {{y}})</div>
 </div>

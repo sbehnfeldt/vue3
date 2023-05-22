@@ -39,8 +39,18 @@ app.mount('#app');
 
 **4) Vue CLI and Bigger Projects (part 1)**
 * Installing and using Vue CLI
-* New project walkthrough
-* Use the Vue CLI to scaffold full Vue websites & SPAs; 
+* Generate project scaffolding 
+* New project walkthrough: directories and important files explained
 * Vue files and templates: .vue files: &lt;template>, &lt;script> and &lt;style> elements
 * Template Refs: A handle to an HTML element / DOM element  
 * Multiple Components: split Vue app into multiple .vue files
+* Project: <Modal> Vue component
+
+**5) Vue CLI and Bigger Projects (part 2)**
+* scoped & global CSS
+* props: pass data from parent to child component
+* emitting custom events
+* click event modifiers
+* slots
+* Challenge: create another modal
+* using teleport

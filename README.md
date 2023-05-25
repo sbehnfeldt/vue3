@@ -54,3 +54,12 @@ app.mount('#app');
 * slots
 * Challenge: create another modal
 * using teleport
+
+**6) Build a Reaction Timer Game**
+* Project preview and setup (from CLI - "vue create reaction-timer"
+* Starting a new game
+* Lifecycle hooks
+* Creating a timer
+* Custom events with data
+* Challenge - showing a results component
+* Finishing touches

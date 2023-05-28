@@ -68,8 +68,19 @@ app.mount('#app');
 * Create a new project
 * Create a signup form
 * VModel
-* v-model with <select>
+* v-model with &lt;select&gt;
 * checkboxes
 * keyboard events and modifier
 * challenge: delete chips from list
 * submitting forms
+
+**8) The Vue Router**
+* Why use the router?
+* Vue router setup for new projects 
+* Router links
+* Folder structure
+* Route parameters
+* Dynamic links
+* Redirects and 404s
+* Programmatic navigation
+* 

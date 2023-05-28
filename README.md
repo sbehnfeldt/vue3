@@ -63,3 +63,13 @@ app.mount('#app');
 * Custom events with data
 * Challenge - showing a results component
 * Finishing touches
+
+**7) Forms & Inputs**
+* Create a new project
+* Create a signup form
+* VModel
+* v-model with <select>
+* checkboxes
+* keyboard events and modifier
+* challenge: delete chips from list
+* submitting forms

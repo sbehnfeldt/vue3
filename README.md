@@ -83,4 +83,8 @@ app.mount('#app');
 * Dynamic links
 * Redirects and 404s
 * Programmatic navigation
-* 
+
+**9) Fetching Data**
+* Using JSON server
+* Fetching data from components
+* Conditionally showing data

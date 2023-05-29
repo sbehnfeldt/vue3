@@ -88,3 +88,12 @@ app.mount('#app');
 * Using JSON server
 * Fetching data from components
 * Conditionally showing data
+
+**10) The Composition API (part 1)
+* Drawbacks of the Options API
+* Composition API basics
+* Template refs (again)
+* Using refs for reactivity
+* Refs vs reactive
+* Computed values
+* watch and watchEffect

@@ -89,7 +89,7 @@ app.mount('#app');
 * Fetching data from components
 * Conditionally showing data
 
-**10) The Composition API (part 1)
+**10) The Composition API (part 1)**
 * Drawbacks of the Options API
 * Composition API basics
 * Template refs (again)
@@ -97,3 +97,9 @@ app.mount('#app');
 * Refs vs reactive
 * Computed values
 * watch and watchEffect
+
+**11) The Composition API (part 2)**
+* Using props in setup
+* Lifecycle Hooks
+* Fetching data in setup
+* Reusable composable functions
